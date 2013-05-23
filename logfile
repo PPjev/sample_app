@@ -16,3 +16,9 @@ LOG:  database system is shut down
 LOG:  database system was shut down at 2013-05-21 19:05:22 EEST
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+ERROR:  OFFSET must not be negative
+STATEMENT:  SELECT * FROM users LIMIT 0 OFFSET -1
+ERROR:  OFFSET must not be negative
+STATEMENT:  SELECT * FROM users LIMIT 0 OFFSET -1
+ERROR:  OFFSET must not be negative
+STATEMENT:  SELECT * FROM users LIMIT 0 OFFSET -1
