@@ -71,7 +71,7 @@ describe User do
       @user.email = mixed_case_email
       @user.save
       expect(@user.reload.email).to eq mixed_case_email.downcase
-    end
+    end 
   end
 
   describe "when password is not present" do

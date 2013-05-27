@@ -25,3 +25,10 @@ STATEMENT:  SELECT * FROM users LIMIT 0 OFFSET -1
 LOG:  database system was shut down at 2013-05-23 18:12:28 EEST
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  database system was shut down at 2013-05-24 18:51:10 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  OFFSET must not be negative
+STATEMENT:  SELECT * FROM users LIMIT 0 OFFSET -1
+ERROR:  OFFSET must not be negative
+STATEMENT:  SELECT * FROM users LIMIT 0 OFFSET -1
