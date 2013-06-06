@@ -83,3 +83,16 @@ LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 ERROR:  cached plan must not change result type
 STATEMENT:  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1
+LOG:  database system was shut down at 2013-06-04 20:18:39 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 3595) running in data directory "/usr/local/var/postgres"?
+WARNING:  pgstat wait timeout
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-05 19:44:40 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started

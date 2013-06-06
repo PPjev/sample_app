@@ -19,7 +19,7 @@ describe User do
 
   it { should be_valid }
 
-  describe "remeber token" do
+  describe "remember token" do
     before { @user.save }
     its(:remember_token) { should_not be_blank }
   end 
