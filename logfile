@@ -96,3 +96,11 @@ LOG:  database system is shut down
 LOG:  database system was shut down at 2013-06-05 19:44:40 EEST
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  database system was shut down at 2013-06-06 16:14:59 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  unexpected EOF on client connection with an open transaction
+LOG:  unexpected EOF on client connection with an open transaction
+LOG:  unexpected EOF on client connection with an open transaction
+LOG:  unexpected EOF on client connection with an open transaction
+LOG:  unexpected EOF on client connection with an open transaction
