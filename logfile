@@ -104,3 +104,13 @@ LOG:  unexpected EOF on client connection with an open transaction
 LOG:  unexpected EOF on client connection with an open transaction
 LOG:  unexpected EOF on client connection with an open transaction
 LOG:  unexpected EOF on client connection with an open transaction
+LOG:  database system was shut down at 2013-06-10 19:30:35 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-11 17:59:19 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
