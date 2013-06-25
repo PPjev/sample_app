@@ -121,3 +121,10 @@ LOG:  database system is shut down
 LOG:  database system was shut down at 2013-06-14 17:53:09 EEST
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-18 18:00:21 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
