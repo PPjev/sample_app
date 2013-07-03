@@ -128,3 +128,15 @@ LOG:  database system is shut down
 LOG:  database system was shut down at 2013-06-18 18:00:21 EEST
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-06-25 19:03:39 EEST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "sample_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "sample_development"
+ERROR:  database "sample_development" already exists
+STATEMENT:  CREATE DATABASE "sample_development" ENCODING = 'unicode'
